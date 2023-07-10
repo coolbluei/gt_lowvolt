@@ -1,0 +1,106 @@
+uuid: bb5531cf-775f-46f1-80c1-4007698a8743
+langcode: en
+status: false
+dependencies:
+  config:
+    - filter.format.minimal_html
+    - filter.format.text_editor_basic
+    - node.type.page
+  module:
+    - block
+    - contextual
+    - filter
+    - node
+    - path
+    - system
+_core:
+  default_config_hash: 35ekF6FOnrkLPDv56FmfWYn6H5C2aQbPVD88_Q4ddQk
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration menu'
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access dashboard'
+  - 'access site in maintenance mode'
+  - 'administer blocks'
+  - 'administer google analytics'
+  - 'administer menu'
+  - 'administer url aliases'
+  - 'change own username'
+  - 'create gt_ct_carousel content'
+  - 'create gt_ct_carousel_slide content'
+  - 'create horizontal_landing_page content'
+  - 'create multipurpose_page content'
+  - 'create page content'
+  - 'create super_block content'
+  - 'create url aliases'
+  - 'create vertical_landing_page content'
+  - 'edit any gt_ct_carousel content'
+  - 'edit any gt_ct_carousel_slide content'
+  - 'edit any horizontal_landing_page content'
+  - 'edit any multipurpose_page content'
+  - 'edit any page content'
+  - 'edit any super_block content'
+  - 'edit any vertical_landing_page content'
+  - 'edit revisions'
+  - 'flush caches'
+  - 'manage mercury nodes'
+  - 'override gt_ct_carousel published option'
+  - 'override gt_ct_carousel revision option'
+  - 'override gt_ct_carousel sticky option'
+  - 'override gt_ct_carousel_slide published option'
+  - 'override gt_ct_carousel_slide revision option'
+  - 'override gt_ct_carousel_slide sticky option'
+  - 'override horizontal_landing_page published option'
+  - 'override horizontal_landing_page revision option'
+  - 'override horizontal_landing_page sticky option'
+  - 'override multipurpose_page published option'
+  - 'override multipurpose_page revision option'
+  - 'override multipurpose_page sticky option'
+  - 'override page published option'
+  - 'override page revision option'
+  - 'override page sticky option'
+  - 'override super_block published option'
+  - 'override super_block revision option'
+  - 'override super_block sticky option'
+  - 'override vertical_landing_page published option'
+  - 'override vertical_landing_page revision option'
+  - 'override vertical_landing_page sticky option'
+  - 'publish revisions'
+  - 'publish revisions of any gt_ct_carousel content'
+  - 'publish revisions of any gt_ct_carousel_slide content'
+  - 'publish revisions of any horizontal_landing_page content'
+  - 'publish revisions of any multipurpose_page content'
+  - 'publish revisions of any page content'
+  - 'publish revisions of any super_block content'
+  - 'publish revisions of any vertical_landing_page content'
+  - 'revert revisions'
+  - 'search content'
+  - 'unpublish current revision'
+  - 'use text format minimal_html'
+  - 'use text format text_editor_basic'
+  - 'view advanced help index'
+  - 'view advanced help popup'
+  - 'view advanced help topic'
+  - 'view any unpublished content'
+  - 'view any unpublished gt_ct_carousel content'
+  - 'view any unpublished gt_ct_carousel_slide content'
+  - 'view any unpublished horizontal_landing_page content'
+  - 'view any unpublished multipurpose_page content'
+  - 'view any unpublished page content'
+  - 'view any unpublished super_block content'
+  - 'view any unpublished vertical_landing_page content'
+  - 'view own unpublished content'
+  - 'view revisions'
+  - 'view revisions of any gt_ct_carousel content'
+  - 'view revisions of any gt_ct_carousel_slide content'
+  - 'view revisions of any horizontal_landing_page content'
+  - 'view revisions of any multipurpose_page content'
+  - 'view revisions of any page content'
+  - 'view revisions of any super_block content'
+  - 'view revisions of any vertical_landing_page content'
+  - 'view the administration theme'

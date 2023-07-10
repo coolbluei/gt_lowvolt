@@ -1,0 +1,21 @@
+uuid: aca4ca2c-2602-49cb-859d-ee3a16ecba56
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.minimal_html
+  module:
+    - filter
+    - node
+    - system
+_core:
+  default_config_hash: eyJWjhYZZoMIRKl4QFG_o2tUt0PHthhcKyuI6hlmN3A
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'search content'
+  - 'use text format minimal_html'
+  - 'view own unpublished content'
