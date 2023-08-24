@@ -2,14 +2,21 @@ uuid: 39f11189-1b64-4912-a8e0-70ad1c267c4d
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.restricted_html
   module:
+    - contact
+    - filter
+    - media
     - system
 _core:
   default_config_hash: Y293BbVeaJOUT9hKaiI9gGSueqhICyopKxfk184gt4U
 id: anonymous
-label: 'anonymous user'
+label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'search content'
+  - 'access site-wide contact form'
+  - 'use text format restricted_html'
+  - 'view media'

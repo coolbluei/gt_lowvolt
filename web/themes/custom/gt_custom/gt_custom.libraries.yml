@@ -1,0 +1,36 @@
+parent:
+  version: VERSION
+  css:
+    theme:
+      css/parent.css:
+        weight: -10
+custom_style:
+  version: VERSION
+  css:
+    theme:
+      css/custom_style.css:
+        weight: -10
+person:
+  version: VERSION
+  css:
+    theme:
+      templates/node/person.css:
+        weight: -10
+question:
+  version: VERSION
+  css:
+    theme:
+      templates/node/question.css:
+        weight: -10
+book:
+  version: VERSION
+  css:
+    theme:
+      templates/book/book.css:
+        weight: -10
+homepage_block:
+  version: VERSION
+  css:
+    theme:
+      templates/block/homepage/homepage.css:
+        weight: -10

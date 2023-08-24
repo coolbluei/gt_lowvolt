@@ -3,19 +3,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.minimal_html
+    - filter.format.basic_html
   module:
+    - contact
+    - file
     - filter
-    - node
+    - media
+    - shortcut
     - system
 _core:
   default_config_hash: eyJWjhYZZoMIRKl4QFG_o2tUt0PHthhcKyuI6hlmN3A
 id: authenticated
-label: 'authenticated user'
+label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'search content'
-  - 'use text format minimal_html'
-  - 'view own unpublished content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'delete own files'
+  - 'use text format basic_html'
+  - 'view media'

@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: jvcZgdJta5RFAnmSY0h9IVs3jKaz_PSXL_MvooDqo1o
 id: node.full
-label: Full
+label: 'Full content'
 targetEntityType: node
 cache: true

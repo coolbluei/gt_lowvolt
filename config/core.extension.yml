@@ -47,6 +47,7 @@ module:
   migrate_drupal: 0
   migrate_drupal_ui: 0
   migrate_plus: 0
+  migrate_skip_on_404: 0
   migrate_upgrade: 0
   mysql: 0
   node: 0
@@ -54,6 +55,7 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  phpass: 0
   quickedit: 0
   rdf: 0
   shortcut: 0
@@ -67,8 +69,6 @@ module:
   tour: 0
   twig_field_value: 0
   twig_tweak: 0
-  update: 0
-  upgrade_status: 0
   user: 0
   video_embed_field: 0
   views_accordion: 0

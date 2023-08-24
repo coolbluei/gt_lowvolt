@@ -1,4 +1,4 @@
-uuid: e6f80315-317a-44e3-ace6-73e09b6903cf
+uuid: 12a8b9d8-554f-4ba3-ac13-c49df31cb2b6
 langcode: en
 status: true
 dependencies: {  }
@@ -21,6 +21,7 @@ source:
       field_name: body
       label: Body
       display_summary: false
+      allowed_formats: {  }
   ids:
     entity_type:
       type: string
