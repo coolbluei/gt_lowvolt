@@ -1,0 +1,8 @@
+uuid: ae9f3f14-0b30-4ce5-b520-18900ab28fc3
+langcode: en
+status: true
+dependencies: {  }
+id: menu-editor-menu
+label: 'My Links'
+description: 'The <em>Editor</em> menu contains default links for editing site content.'
+locked: false

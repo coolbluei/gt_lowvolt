@@ -1,0 +1,20 @@
+uuid: 824eec06-110e-49a4-af0c-18e553921073
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.super_block
+  module:
+    - user
+id: node.super_block.teaser
+targetEntityType: node
+bundle: super_block
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

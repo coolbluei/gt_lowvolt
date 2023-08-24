@@ -1,0 +1,12 @@
+uuid: cbd17a0e-89c5-4b98-b768-395fbf53befc
+langcode: en
+status: true
+dependencies: {  }
+id: gt_low_voltage_standards_feedb
+label: 'GT Low Voltage Standards Feedback'
+recipients:
+  - doug.sims@facilities.gatech.edu
+reply: 'We appreciate your feedback on the GT Low Voltage Standards. '
+weight: -1
+message: null
+redirect: null

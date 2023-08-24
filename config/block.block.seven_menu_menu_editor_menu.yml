@@ -1,0 +1,35 @@
+uuid: acb7a4f4-b528-4caf-aee5-7d17a5e9976b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-editor-menu
+  module:
+    - system
+    - user
+  theme:
+    - seven
+id: seven_menu_menu_editor_menu
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-editor-menu'
+settings:
+  id: 'system_menu_block:menu-editor-menu'
+  label: ''
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      3: '3'
+      4: '4'
+      5: '5'

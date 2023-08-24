@@ -1,4 +1,4 @@
-uuid: 3e34feb7-24a3-4aaf-906d-1538bd34b0d4
+uuid: 7c71aeae-bed5-45a2-b05b-c13bacc83d6e
 langcode: en
 status: true
 dependencies: {  }
@@ -54,5 +54,6 @@ migration_dependencies:
   required: {  }
   optional:
     - upgrade_block_content_type
+    - upgrade_contact_category
     - upgrade_d7_filter_format
     - upgrade_d7_node_type

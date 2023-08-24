@@ -1,0 +1,21 @@
+uuid: 9e902bf9-3f4d-46c4-9dbd-abb806e7e393
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_nbsb_title
+field_name: field_nbsb_title
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

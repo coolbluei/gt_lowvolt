@@ -1,0 +1,20 @@
+uuid: 923bdd8c-df14-4175-a408-14b4880cb6c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.multipurpose_page
+  module:
+    - user
+id: node.multipurpose_page.teaser
+targetEntityType: node
+bundle: multipurpose_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

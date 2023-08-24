@@ -1,0 +1,19 @@
+uuid: 58271b15-c604-4f86-98a2-74a8df078db1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.multipurpose_page
+  module:
+    - user
+id: node.multipurpose_page.default
+targetEntityType: node
+bundle: multipurpose_page
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

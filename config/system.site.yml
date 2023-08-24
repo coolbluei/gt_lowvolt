@@ -2,13 +2,13 @@ _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
 uuid: 32aa2309-b019-4a87-9a74-0cfce59a2ab9
-name: 'Base GT Install'
-mail: techteam@coolbluei.com
+name: 'GT Low Voltage Standards | Georgia Institute of Technology | Atlanta, GA'
+mail: doug.sims@facilities.gatech.edu
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node/131
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

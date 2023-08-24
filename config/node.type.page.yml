@@ -1,7 +1,20 @@
 uuid: 25c09930-d3df-44de-9042-23997494fd8c
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - gt-action-items
+      - gt-footer-links-1
+      - gt-footer-links-2
+      - gt-footer-links-3
+      - gt-footer-utility-links
+      - main
+      - menu-editor-menu
+    parent: 'gt-action-items:'
 _core:
   default_config_hash: _z3Ch0AxSvwgUcbg02iOKl_Q8PAxirr6lbEpQFsuPNs
 name: 'Basic page'

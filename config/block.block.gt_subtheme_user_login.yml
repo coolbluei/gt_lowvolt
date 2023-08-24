@@ -1,0 +1,25 @@
+uuid: 1934e570-bbe2-4c68-8bfe-11a140f8b2bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - gt
+id: gt_subtheme_user_login
+theme: gt
+region: content
+weight: -59
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  label_display: '0'
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/3

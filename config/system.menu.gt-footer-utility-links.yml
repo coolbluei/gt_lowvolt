@@ -1,0 +1,8 @@
+uuid: b26c1fb7-1fc9-4926-a191-08dcb866fe03
+langcode: en
+status: true
+dependencies: {  }
+id: gt-footer-utility-links
+label: 'GT footer utility links'
+description: 'Footer utility links; <em>E.g.</em> "Contact" or "Feedback."'
+locked: false

@@ -8,15 +8,15 @@ dependencies:
     - gt
 _core:
   default_config_hash: fEXmvhXSHFjanAL1m4kgAmvFRH43L4LYPcrt5DvpoPE
-id: gt_content
+id: gt_system_main
 theme: gt
 region: content
-weight: -6
+weight: 0
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: ''
   label_display: '0'
   provider: system
 visibility: {  }
